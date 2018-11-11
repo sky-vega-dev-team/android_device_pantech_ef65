@@ -25,7 +25,7 @@ LOCAL_C_INCLUDES := \
     external/selinux/libselinux/include
 LOCAL_CPPFLAGS := -Wall -DANDROID_TARGET=\"$(TARGET_BOARD_PLATFORM)\"
 LOCAL_STATIC_LIBRARIES := libbase
-LOCAL_SRC_FILES := init_ef63.cpp
-LOCAL_MODULE := libinit_ef63
+LOCAL_SRC_FILES := init_ef65.cpp
+LOCAL_MODULE := libinit_ef65
 
 include $(BUILD_STATIC_LIBRARY)

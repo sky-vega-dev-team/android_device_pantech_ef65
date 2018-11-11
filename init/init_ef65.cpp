@@ -76,19 +76,7 @@ void vendor_load_properties()
     }
 
     property_override("ro.product.model", device_buf);
-
-    if (strstr(device_buf, "IM-A910S")) 
-    {
-        property_override("ro.product.device", "ef63s");
-    } 
-    else if (strstr(device_buf, "IM-A910K")) 
-    {
-        property_override("ro.product.device", "ef63k");
-    } 
-    else if (strstr(device_buf, "IM-A910L"))
-    {
-        property_override("ro.product.device", "ef63l");
-    }
+    property_override("ro.product.device", "ef65");
 
     // Init a dummy BT MAC address, will be overwritten later
     property_override("ro.boot.btmacaddr", "00:00:00:00:00:00");
