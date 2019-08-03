@@ -36,7 +36,7 @@ on early-boot
     chmod 0660 /sys/class/leds/kpdbl_menu/brightness
     chmod 0660 /sys/class/leds/kpdbl_back/brightness
 
-service light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.msm8974
+service light-hal-2-0 /vendor/bin/hw/android.hardware.light@2.0-service.ef65
     interface android.hardware.light@2.0::ILight default 
     class hal
     user system
