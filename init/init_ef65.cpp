@@ -76,7 +76,7 @@ void vendor_load_properties()
     }
 
     property_override("ro.product.model", device_buf);
-    property_override("ro.product.device", "ef65");
+    property_override("ro.product.device", "ef65s");
 
     // Init a dummy BT MAC address, will be overwritten later
     property_override("ro.boot.btmacaddr", "00:00:00:00:00:00");
