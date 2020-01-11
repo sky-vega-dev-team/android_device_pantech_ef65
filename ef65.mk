@@ -31,3 +31,7 @@ PRODUCT_PACKAGES += \
 
 # Inherit from msm8974-common
 $(call inherit-product, device/pantech/msm8974-common/msm8974.mk)
+
+# V-Pen Detection
+PRODUCT_PACKAGES += \
+     VPenDetect
