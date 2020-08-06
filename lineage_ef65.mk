@@ -29,7 +29,7 @@ $(call inherit-product-if-exists, vendor/pantech/ef65/ef65-vendor.mk)
 PRODUCT_NAME := lineage_ef65
 PRODUCT_DEVICE := ef65
 PRODUCT_MANUFACTURER := PANTECH
-PRODUCT_MODEL := IM-A920
+PRODUCT_MODEL := IM-A920S
 
 PRODUCT_BRAND := PANTECH
 TARGET_VENDOR := PANTECH
