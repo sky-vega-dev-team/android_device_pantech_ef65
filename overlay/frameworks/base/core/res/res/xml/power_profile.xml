@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <device name="Android">
     <item name="none">0</item>
-    <item name="cpu.idle">2.5</item>
-    <item name="cpu.active">22</item>
+    <item name="cpu.suspend">2.5</item>
+    <item name="cpu.idle">22</item>
     <item name="cpu.clusters.cores">4</item>
     <array name="cpu.core_speeds.cluster0"> 
         <value>300000</value>
