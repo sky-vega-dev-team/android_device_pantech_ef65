@@ -35,9 +35,13 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/nfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/nfc-nci.conf \
     $(LOCAL_PATH)/configs/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
 
-# Inherit from msm8974-common
-$(call inherit-product, device/pantech/msm8974-common/msm8974.mk)
-
 # V-Pen Detection
 PRODUCT_PACKAGES += \
      VPenDetect
+
+# Privapp Whitelist
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/privapp-permissions-vpen.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-vpen.xml
+
+# Inherit from msm8974-common
+$(call inherit-product, device/pantech/msm8974-common/msm8974.mk)
